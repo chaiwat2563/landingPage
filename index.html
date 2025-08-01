@@ -1,24 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minimal Landing Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-white text-gray-800">
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Chaiwat Promma Page</h1>
-      <p class="text-lg md:text-xl text-gray-600 mb-6 max-w-xl">
-         Rasisalai School. Sisaket, Thailand.
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ยินดีต้อนรับ | Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <header class="bg-pink-100 text-center py-8 shadow-md">
+    <h1 class="text-3xl font-bold text-blue-500">ยินดีต้อนรับสู่เว็บไซต์ของ ชัยวัฒน์  พรหมมา</h1>
+    <p class="mt-2 text-pink-500">โรงเรียนราษีไศล จ.ศรีสะเกษ</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <section class="text-center">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">เกี่ยวกับเรา</h2>
+      <p class="text-gray-600 leading-relaxed">
+        เราคือทีมที่หลงใหลในเทคโนโลยีและการออกแบบ สร้างเว็บที่เน้นความเรียบง่ายและสื่อสารได้ตรงจุด
       </p>
-      <a href="#"
-         class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
-        Get Started
+    </section>
+
+    <section class="mt-12 bg-blue-50 rounded-xl p-6 shadow-sm">
+      <h3 class="text-xl font-semibold text-pink-500 mb-2">บริการของเรา</h3>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>ออกแบบเว็บไซต์</li>
+        <li>พัฒนาเว็บแอปพลิเคชัน</li>
+        <li>ให้คำปรึกษาด้าน UX/UI</li>
+      </ul>
+    </section>
+
+    <section class="mt-12 text-center">
+      <a href="#contact" class="inline-block bg-pink-400 text-white px-6 py-3 rounded-full shadow-md hover:bg-pink-500 transition">
+        ติดต่อเรา
       </a>
     </section>
-    <footer class="text-center text-sm text-gray-500 py-4">
-      © 2025 Minimal Co.
-    </footer>
-  </body>
+  </main>
+
+  <footer class="bg-blue-100 text-center py-6 text-gray-600 mt-12">
+    © 2025 สร้างด้วย ❤️ โดยทีมของคุณ
+  </footer>
+
+</body>
 </html>
+
